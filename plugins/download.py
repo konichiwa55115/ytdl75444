@@ -322,7 +322,7 @@ async def pyro_fsub(c, message, fsub):
         if user.status == "kicked":
             await c.send_message(
                 chat_id=message.chat.id,
-                text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/harp_chat).",
+                text="Sorry, You are Banned to use me. Contact my [Creator](https://t.me/zautebot).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
