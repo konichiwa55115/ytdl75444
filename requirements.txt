@@ -1,6 +1,6 @@
 asyncio
 hachoir
-pyrogram
+pyrogram==1.2.9
 tgcrypto
 youtube_dl
 uuid
