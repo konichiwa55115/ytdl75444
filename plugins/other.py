@@ -19,7 +19,7 @@ import asyncio
 @Client.on_message(filters.command("start"))
 async def start_msg(client, message):
 	await message.reply_text(
-		f"السلام عليكم يا  {message.from_user.mention},أنا بوت أقوم بتحميل قوائم يوتيوب \n\n فقط أرسل رابط قائمة التشغيل متبوعا بالصيغة التي تريد  /n/n مثلا /n/n youtube.com/playlist=××× audio  /n/n لبقية البوتات هنا /n/n https://t.me/ibnAlQyyim/1120 /n/n لدعم استمرار المشروع هنا /n/n http://paypal.me/kelectronic89 ",
+		f"السلام عليكم يا  {message.from_user.mention},أنا بوت أقوم بتحميل قوائم يوتيوب \n\n فقط أرسل رابط قائمة التشغيل متبوعا بالصيغة التي تريد  \n\n مثلا \n\n youtube.com/playlist=××× audio  \n\n لبقية البوتات هنا \n\n https://t.me/ibnAlQyyim/1120 \n\n لدعم استمرار المشروع هنا \n\n http://paypal.me/kelectronic89 ",
 		reply_markup=InlineKeyboardMarkup(
 				[[
 					InlineKeyboardButton("🛠 Help", callback_data=f"help"),
